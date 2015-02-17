@@ -5,6 +5,13 @@
   "loadHooks": [
     "moduleloader",
     "userconfig",
+    "userhooks",
+    "request",
+    "responses",
+    "csrf",
+    "cors",
+    "controllers",
+    "views",
     "http",
     "sockets",
     "orm",
