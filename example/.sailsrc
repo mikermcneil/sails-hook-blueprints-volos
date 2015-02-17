@@ -1,5 +1,14 @@
 {
   "generators": {
     "modules": {}
-  }
+  },
+  "loadHooks": [
+    "moduleloader",
+    "userconfig",
+    "http",
+    "sockets",
+    "orm",
+    "pubsub",
+    "blueprints"
+  ]
 }
